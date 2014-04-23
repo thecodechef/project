@@ -1,0 +1,33 @@
+{
+  "name": "project",
+  "version": "0.1.0",
+  "description": "a fake project for training",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thecodechef/project.git"
+  },
+  "author": "thecodechef",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thecodechef/project/issues"
+  },
+  "homepage": "https://github.com/thecodechef/project",
+  "devDependencies": {
+    "gulp": "^3.6.1",
+    "gulp-ruby-sass": "^0.4.3",
+    "gulp-concat": "^2.2.0",
+    "gulp-load-plugins": "^0.5.0",
+    "gulp-uglify": "^0.2.1",
+    "gulp-cssmin": "^0.1.4",
+    "gulp-jade": "^0.5.0",
+    "gulp-jshint": "^1.5.3",
+    "gulp-stylus": "^1.0.0",
+    "gulp-imagemin": "^0.3.0",
+    "gulp-less": "^1.2.3",
+    "gulp-notify": "^1.2.5"
+  }
+}
