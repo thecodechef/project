@@ -50,7 +50,7 @@ gulp.task('imgmin', function(){
 gulp.task('watch', function(){
 	gulp.watch('gulpfile.js', ['default']);
 	gulp.watch(paths.jade, ['jade']);
-	gulp.watch(paths.stylus, ['css']);
+	gulp.watch(paths.stylus, ['stylus']);
 	gulp.watch(paths.js, ['scripts']);
 	gulp.watch(paths.img, ['imgmin']);
 });
